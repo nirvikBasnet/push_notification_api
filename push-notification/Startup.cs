@@ -38,7 +38,7 @@ namespace push_notification
                 c.SwaggerDoc(name: "V1", new OpenApiInfo { Title = "My API", Version = "V1" });
             });
         }
-
+        
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
